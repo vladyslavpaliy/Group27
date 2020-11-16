@@ -1,6 +1,8 @@
 package gourpLibrary;
 
 public class StringUtility {
+
+    // find the Frequency of a  character in a String
     public static int frequency(String str, char ch){
         int count = 0;
 
@@ -12,7 +14,7 @@ public class StringUtility {
         return count;
     }
 
-
+    // find the Unique Character in a String
     public static String unique(String str){
         String unique = ""; // "eg"
         for(int i=0; i <= str.length()-1; i++) {
@@ -26,7 +28,7 @@ public class StringUtility {
         return unique;
     }
 
-
+    // Reverses a String
     public static String reverse(String str){
         String result = "";
 
@@ -37,7 +39,7 @@ public class StringUtility {
         return result;
     }
 
-
+    // removes duplicates from a String
     public static String removeDuplicates(String str){
         String result = "";  //"abc"
 
@@ -47,6 +49,19 @@ public class StringUtility {
             }
         }
 
+        return result;
+    }
+
+    // print the frequency of each character in a String
+    public static String frequencyOfCharacters(String str) {
+        String result = "";
+        String nonDup = StringUtility.removeDuplicates(str);
+
+        for (int i = 0; i <= nonDup.length() - 1; i++) {
+            char ch = nonDup.charAt(i);
+            int count = StringUtility.frequency(str, ch);
+            result += "" + ch + count;
+        }
         return result;
     }
 }
