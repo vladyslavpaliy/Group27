@@ -1,0 +1,188 @@
+Possible Interview questions
+==================================
+Everything to Know:
+
+1. What is SDLC?
+    —> SDLC is a Software development life cycle. It includes 6 steps:
+                                                    requirement gathering,
+                                                    design,
+                                                    coding (developing),
+                                                    testing,
+                                                    production, and
+                                                    maintenance.
+
+2. What software methodology do you implement in your team? (Agile)
+    —> We are using Agile methodology in our team.
+
+3. What is a user story?
+    —> Simple way of explaining important features. Short simple descriptions of a feature told by a customer.
+    US should be INVEST (independent, negotiable, valuable, estimate, small, testable)
+    It starts with ” As a user I should be able to.....”
+    In order to write a user story we should contain 3 items; Actor(someone),Action(something), and Outcome(benefit).
+
+4. What is an Epic?
+     —> Epic is a big/large user story.
+     When we estimate, if the user story takes a whole sprint or more than one sprint we call Epic.
+     In our team if any user stories were more than 8 point considered as an epic
+
+5. What is Acceptance Criteria (AC) ?
+     —> Very Specific details. AC defines what must be done to complete the user story, specify boundaries of the story..
+     One user story has 102 more AC..Good AC should be MARS (measurable, attainable, relevant, specific)
+
+6. What is the product backlog?
+    —> All user stories that PO wrote to be done in a Sprint are stored in the Product Backlog. Only PO can make changes.
+
+7. What is your team size?
+    —> We have 13 people in our team. 1 PO, 1 SM, 6 Devs and 4 testers.
+
+8. What agile meetings do you attend?
+    —> We have grooming meetings (before each sprint),
+    sprint planning meetings (very first day of spring),
+    daily stand up meetings (every day in the morning),
+    demo meetings (every last day of each sprint),
+    retro meetings (last day of sprint as well).
+
+  8.1 What do you do in grooming meetings?
+           —> We estimate points to user stories. PO, BA (but we don’t have BA), SM and Dev Team are in this meeting.
+           PO prepares several user stories in the product backlog and prioritizes them.
+           PO explains the user stories and goes over Acceptance Criteria.
+           Then estimations start, we play Agile cards and give points and also find Epics.
+           We give points with the Fibonacci system. Then PO asks for the highest and lowest points reason.
+           And it takes around 2 hours.
+
+ 8.2 How do you give points? What is Fibonacci ?
+        —> Fibonacci is a point estimation method. We use the Fibonacci system.
+        Fibonacci sequence is a series of numbers where a number is the addition of the last two numbers,
+        starting with 0, and 1.(0, 1, 1, 2, 3, 5, 8, 13, 21, 34....)
+         Each point represents one work day/ 8 hours.
+
+  8.3 What do you do in sprint planning meetings?
+           - This meeting is in our first days of Sprint.
+           Take User stories from product backlog to sprint backlog
+           and plan how much point we will finish in this sprint.
+           SM asks questions about our day off. So he can calculate the velocity of the team.
+           Then PO will take User stories from product backlog to sprint backlog
+
+  8.4 What is the sprint backlog ?
+         - The sprint backlog is a list of tasks identified by the Scrum team to be completed during the sprint.
+         Those are the User stories that dropped from the product backlog by PO.
+         *PO or BA will take the stories from backlog to sprint backlog.
+         *In the sprint backlog only one sprint story is stored.
+
+  8.5 What is team capacity and velocity?
+            - WE have 6 devs and 4 testers. Team capacity is - total hours/days a team works in a Sprint.
+            So we have 10 Dev team members * 8 (days of we work in one Sprint) ==> 80 hours
+            - And Velocity - total points a team can finish.
+            So from our working hours we will subtract days that we have off for vacation.
+            Each day off will be subtract 1
+
+  8.6 Who starts the sprint?
+            - At the end of the Sprint Planning meeting Scrum Master begins Sprint by clicking one button on Jira.
+
+ 8.7  What do you do in daily stand up meetings?
+            - Daily meetings have fixed time and SM hosts the meeting.
+            Purpose of the meeting - Update team members on working process and Bring problems on time.
+            In this meeting we answer 3 questions.
+                1. What did I do Yesterday ? Or last Friday ?(if stand up on Monday)
+                2. What am I going to do today?
+                3. Is there any impediment, Blocker, Problem ?
+
+  8.8  What do you do in a Demo (sprint review) meeting?
+          - This meeting is on the last day of sprint. everyone joins this meeting also client;
+             Developers and testers demonstrate their work that they done during the sprint to PO, and client
+
+ 8.9 Who accepts user stories?
+        PO can  accept and reject user stories.
+
+  8.10 Who ends the sprint?
+        Scrum Master ends the sprint.
+
+  8.11 What to do with incomplete tickets(story, bug)?
+        Review them and move them to the next sprint
+
+  8.12 What do you do in retro meetings?
+        It is hosted by SM and the meeting is between SM and Dev team only.
+        We answer and discuss 3 questions:
+           1. What went well?
+           2. What was not going well?
+           3. How can we improve?
+     At the end of the sprint after the demo meeting we have a Retro meeting.
+
+9. What is dynamic testing?
+    - Dynamic testing means testing code and software.
+
+10. What is static testing?
+    Testing documents(like SRS) is called Static testing
+
+ 1. starts from the requirement gathering step.
+Static testing is a verification process, that involves 3 meetings:
+* review - find , eliminate errors in documents with client
+* walk-through - author of document guide participants & gather feedback, discuss at peer level, useful higher doc (SRS)
+* inspection - the most formal, led by trained moderators
+2. designers also perform static testing in the same way.
+
+11. What is functional testing?
+      - It is by Agile team testers. Each functional will be tested separately by each tester.
+      It can be front (log in/log-out, send msg, make a call s, click a button) and backend (API and database testing).
+
+12. What is unit testing and who does that? it runs in which environment?
+    Unit testing is done by developers in dev.environment.
+    Developers do not work on actual url they work in dev.environments like https:\\dev.amazon.com.
+    After developer write some code, he needs to run each unit and it called Unit testing
+    Unit-small part inside big code. Developers write small unit-few lines and check it.
+    When he combines a few units and runs it it is integration.
+
+13. What is integration testing and who does that? it runs in which environment?
+      - Developers write small unit-few lines and check it. When he combines a few units and runs it it is integration.
+
+14. What is a smoke test? it runs in which environment?
+      —> Smoke test runs in qa/test environment. Everyday before we start the work,
+      we have  to make sure the app is up and running.
+      Of course not all functions are just some very important measures that are chosen by devs and testers.
+      When we chose 6-7 major functionalities we put tag on top of it @smoke.
+      Inform DevOp team configure Jenkins app. Every morning certain time Jenkins go to Github and run codes
+        QA/test environment: www.qa.amazon.com
+
+  14.1 How long does your smoke test take to run?
+    15-30min everyday early morning at fixed time
+
+ 14.2 How often do you run your smoke test?
+    We run Smoke test every day. In some Companies it may differ every week day.
+
+  14.3 How do you see the smoke test result?
+           —> At the end of Smoke test every developers and testers receive an email result(pass/fail) from Jenkins
+
+ 14.4 How many scenarios does your smoke test have?
+           —> 60-70
+
+15.  What is a regression test? it runs in which environment?
+       —> Regression testing verifies any modification or update in a software without affecting the overall working functionality.
+          It is staging pre-production environment.Regression test is mostly run in qa environment and is performed by testers
+. When you add new functions Regression tests new functions with old functions together to check how they both work together.
+  Big major Regression done before release. Small/minor regression done at the end of each Sprint
+
+15.1 How long does your regression test take to run?
+     Depends on the amount of codes. may take up to several hours
+         (you can answer this after selenium Grid class)
+
+  15.2 How often do you run your regression test?
+         - Big major Regression done before release. Small/minor regression done at the end of each Sprint
+
+16. What is user acceptance testing(UAT)?
+    User acceptance test performed by UAT team.
+    The UAT team also checks functionality; they test a few functions by one tester.
+    Client has to accept APP SO WE CAN RELEASE.
+    UAT testing business perspective as in real life. It is called Alpha testing.
+User acceptance testing (UAT) is the last phase of the software testing process.
+During UAT, actual software users test the software to make sure it can handle required tasks in real-world scenarios,
+according to specifications. UAT is one of the final and critical software project procedures that must occur
+before newly developed software is rolled out to the market. It is performed in a staging environment.
+
+16.1 What is Alpha testing?
+   Uat team performs the test prior to release
+
+ 16.2 What is Beta testing?
+   end user testing done by customers/ people
+   End_used/ actual user
+
+17. Tell me about yourself

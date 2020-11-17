@@ -1,0 +1,171 @@
+Possible Interview questions
+==================================
+1. what is SDLC?
+    SDLC stands for Software Development LifeCycle.
+        SDLC is a kind of methodology of how to build a software.
+
+        What is a software/ application?
+            Software is a set of instructions, data or programs
+            used to operate computers and execute specific tasks.
+
+2. What software methodology you implement in your team? (Agile)
+    In my team, we implemented Agile-Scrum methodology.
+    (or ==> I have been working in Agile-Scrum environment)
+
+3. What is a user story?
+    Short, simple descriptions of a feature told from the customer.
+
+4. What is an Epic?
+    Epic is a large user story. There’s no specific limit threshold
+    at which we call a particular story an epic. It just
+    means “big user story.”
+
+5. What is Acceptance Criteria (AC) ?
+    Details of user stories.
+    Criteria for good Acceptance Criteria—>MARS
+                                                Measurable
+                                                Attainable
+                                                Relevant (should related to User story)
+                                                Specific
+
+6. What is product backlog?
+    Product backlog is where we store the source for things that a team works on.
+    (a place that all the user stories are stored )
+
+7. What is your team size?
+    My team size is 13 and in my team we have 1 PO, 1 SM, 1 BA, 6 DEVELOPERS, 4 TESTERS.
+
+8. What agile meetings you attend?
+            - Grooming meeting
+            - Sprint Planning meeting
+            - Daily stand up meeting
+            - Demo (Demonstrate) meeting / Sprint review meeting
+            - Retro (Retrospective) meeting
+
+     8.1 What do you do in grooming meeting?
+            Estimate user stories for upcoming sprint (give points)
+            (PO Prioritize user stories before the meeting)
+
+     8.2 How do you give point? what is Fibonacci ?
+            !!!!!
+
+     8.3 What do you do in sprint planning meeting?
+            We do plan for upcoming sprint only.
+            How much points we can finish in this sprint.
+                Scrum Master ask you question to calculate Velocity : Any one has any planned day off?
+            We pick user stories from product backlog to sprint backlog
+
+     8.4 What is sprint backlog ?
+            Sprint backlog is a place that only one sprint's user stories are stored.
+
+     8.5 What is team capacity and velocity?
+            Team capacity : total days one team has to work.
+            Velocity : total user story points one team can finish in a sprint.
+
+     8.6 Who starts the sprint?
+            SM starts the sprint by just clicking a button on jira.
+
+     8.7 What do you do in daily stand up meeting?
+            Briefly, we answer these three questions.
+            1- What did I do yesterday or last business day?
+            2- What am I going to do today?
+            3- Is there any impediment ? Blocker ? Problem?
+
+     8.8 What do you do in Demo (sprint review) meeting?
+            1- Developers and testers demonstrate their work that they done
+               during the sprint to the team, PO and client.
+            2- Po accepts or rejects their works
+
+     8.9 Who accepts user stories?
+            PO accepts user stories
+
+     8.10 Who ends the sprint?
+            SM ends the sprint
+
+     8.11 What to do with incomplete ticket(story, bug) ?
+            PO move them to upcoming Sprint
+
+     8.12 What do you do in retro meeting?
+            Briefly, we discuss these three topics about last sprint.
+            1- What went well?
+            2- What was not going well?
+            3- How can we improve?
+
+9.  What is dynamic testing?
+     Testing code & software / application called- Dynamic Testing
+
+10. What is static testing?
+     Testing documents is called- Static Testing
+
+11. What is functional testing?
+     To test the functionality of the app
+
+12. What is unit testing and who does that? it runs in which environment?
+     Unit Tests isolate a section of code and verify its correctness.
+     Developers do unit testing in development-enviroment
+
+13. What is integration testing and who does that? it runs in which environment?
+     Defined as a type of testing where software modules are tested as a group.
+     Developers do integration testing in development-enviroment
+
+14. What is smoke test? it runs in which environment?
+            The purpose is to check if the critical functionalities of the application up and running.
+            Determines whether the application is stable or not.
+            Testers do smoke testing in qa / test environment.
+            Jenkins take our code to QA/TEST environment to run it.
+            DevOps team config the Jenkins tool .
+
+    14.1 How long does your smoke test take to run?
+            Around 15~20 minutes
+
+    14.2 How often do you run your smoke test?
+            Every day morning before start to work
+
+    14.3 How do you see the smoke test result?
+            Everyday : Jenkins app go to Github run your codes
+            and send email to you to provide pass/fail report.
+
+    14.4 How many scenarios does your smoke test have?
+            scenarios: 20-70
+
+15.  What is regression test? it runs in which environment?
+            Verifies that software previously developed modules are still working with the new added module.
+            Make sure that a product still functions after code changes or updates.
+            Testers do regression testing in qa / test environment.
+
+    15.1 How long does your regression test take to run?
+         (you can answer this after selenium Grid class)
+            It might take several hours.
+            100 scenarioes --> 30-40 m
+
+    15.2 How often do you run your regression test?
+            1. Before release.
+                   1. every fixed time. EX: every 3 months, 6 months
+                        how long does it take?
+                            - teams spend a sprint , or just a week to perfom regression.
+                            - last sprint/last week before the release
+                            - all the codes on github will run by jenkins
+                            - there are always some user stories that we did not write code.
+                              so these stories functions are tested manually. It might take several days.
+
+                   2. whenever a module/feture is ready.
+
+            2. last day of each sprint + before release.
+                   Regression in last day of a sprint: we only run the codes.
+                   All old function's code with whatever we done in this sprint.
+
+16. What is user acceptance testing(UAT)?
+            The application is tested for acceptability & validates the end to end business flow
+            After UAT, the application will be released to production
+            There should be specific environment for UAT.
+
+    16.1 What is Alpha testing?
+            Test automation engineers(UAT team members) test the
+            software to make sure it meets the requirement by testing
+            end - to - end scenarios.
+
+    16.2 What is Beta testing?
+            Actual software user/End-user/Client test the software to make
+            sure it can handle tasks in real-world scenarios.
+
+17. Tell me about yourself
